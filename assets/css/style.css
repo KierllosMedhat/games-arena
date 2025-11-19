@@ -1,0 +1,63 @@
+:root {
+    --color-red-400: rgb(255, 100, 103);
+    --color-red-500: rgb(251, 44, 54);
+    --color-red-600: rgb(231, 0, 11);
+    --color-red-900: rgb(130, 24, 26);
+    --color-green-400: rgb(6, 223, 114);
+    --color-green-600: rgb(0, 166, 62);
+    --color-gray-300: rgb(209, 213, 219);
+    --color-gray-400: rgb(153, 161, 175);
+    --color-gray-600: rgb(74, 85, 101);
+    --color-gray-700: rgb(54, 65, 83);
+    --color-gray-800: rgb(30, 41, 57);
+    --color-gray-900: rgb(16, 24, 40);
+    --color-black: rgb(0, 0, 0);
+    --color-white: rgb(255, 255, 255);
+    --color-primary: #c9fe1b;
+    --color-dark: #0b0e13;
+    --color-light: #f1f1f1;
+}
+
+html, body {
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.bg-primary-dark {
+    background-color: var(--color-dark);
+}
+
+.bg-primary-color {
+    background-color: var(--color-primary);
+}
+
+.text-color-primary {
+    color: var(--color-primary);
+}
+
+.nav-item a{
+    color: var(--color-light);
+}
+
+.nav-item a:hover, .nav-link:hover span{
+    color: var(--color-primary);
+}
+
+.active {
+    color: var(--color-primary) !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: var(--color-primary);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.menu-icon svg:hover path{
+    stroke: #c9fe1b;
+}
