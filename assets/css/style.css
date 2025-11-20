@@ -13,13 +13,18 @@
     --color-gray-900: rgb(16, 24, 40);
     --color-black: rgb(0, 0, 0);
     --color-white: rgb(255, 255, 255);
-    --color-primary: #c9fe1b;
-    --color-dark: #0b0e13;
-    --color-light: #f1f1f1;
+    --color-primary: rgb(201, 254, 27);
+    --color-dark: rgb(11, 14, 19);
+    --color-light: rgb(241, 241, 241);
 }
 
 html, body {
     font-family: "Chakra Petch", sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: "Days One", sans-serif
 }
 
 .bg-primary-dark {
@@ -32,6 +37,11 @@ html, body {
 
 .text-color-primary {
     color: var(--color-primary);
+}
+
+button:hover {
+    background-color: var(--color-primary) !important; /* Semi-transparent background is crucial */
+    backdrop-filter: blur(10px) brightness(80%); /* Apply blur and brightness to the backdrop */
 }
 
 .nav-item a{
@@ -60,4 +70,35 @@ html, body {
 
 .menu-icon svg:hover path{
     stroke: #c9fe1b;
+}
+
+/* HERO SECTION */
+#hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.8 ), rgba(0, 0, 0, 0.8) ), url(/assets/images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero__actions button {
+    border: 3px solid var(--color-primary);
+}
+
+.hero__image img{
+    border: 5px solid var(--color-primary);
+    border-radius: 1rem;
+}
+
+.status-card {
+    background-color: var(--color-dark);
+    border: 1px solid var(--color-gray-600); 
+    border-radius: 10px;
+    padding: 1.3rem 1.6rem; 
+    width: 12rem;
+    bottom: 0.2rem;
+    left: 5rem;
+}
+
+.status-card p {
+    color: var(--color-gray-600);
+    font-size: 1rem;
 }

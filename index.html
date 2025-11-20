@@ -9,12 +9,13 @@
         <link rel="shortcut icon" href="/assets/images/game-controller.png" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Days+One&display=swap" rel="stylesheet">
         <title>Games Arena</title>
 	</head>
 	<body>
         <div class="container-fluid p-0">
-		<nav class="navbar navbar-expand-lg bg-primary-dark navbar-dark p-2 border-2 border-bottom border-dark">
+            <header class="pt-5">
+		        <nav class="navbar navbar-expand-lg bg-primary-dark navbar-dark p-2 border-2 border-bottom border-dark fixed-top">
             <div class="container-xl">
                 <span class="navbar-brand text-color-primary" href="#"><i class="fa-gamepad fa me-1"></i> GamesArena</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,7 +69,36 @@
                     </div>
                 </div>
             </div>
-        </nav>
+                </nav>
+                <section id="hero" class="d-flex flex-column align-items-center p-5 text-center">
+                    <h1 class="text-uppercase text-white fw-bold text-center">The Ultimate <span class="text-color-primary d-block text-center">Gaming</span> Experience</h1>
+                    <p class="text-white m-5">Join millions of gamers worldwide in the most competitive eSports tournaments. Experience next-level gaming with cutting-edge technology and endless possibilities.</p>
+                    <div class="hero__actions d-flex gap-3">
+                        <button class="btn bg-primary-color fw-bold p-3">Start Gaming Now</button>
+                        <button class="btn bg-transparent fw-bold p-3 text-color-primary">Watch Tournaments</button>
+                    </div>
+                    <div class="hero__image p-3 mt-5 position-relative">
+                        <img class="w-75" src="/assets/images/hero-img.png" alt="gaming setup">
+                        <div class="status-card d-grid text-white position-absolute">
+                            <div class="row">
+                                <div class="col-4 align-content-center p-0">
+                                    <i class="fa fa-trophy text-color-primary fa-2x"></i>
+                                </div>
+                                <div class="col-8 p-0 text-start">
+                                    <p class= "mb-0">Active Players</p>
+                                    <h5>2.5M+</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </header>
+            <main>
+
+            </main>
+            <footer>
+                
+            </footer>
         </div>
         <script src="/js/bootstrap.bundle.min.js"></script>
 	</body>
