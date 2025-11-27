@@ -257,7 +257,7 @@ button:hover {
     transition-duration: 0.5s;
 }
 
-#what-we-do .fa-caret-up {
+.fa-caret-up {
     position: absolute;
     top: -2.4rem;
     left: -2rem;
@@ -267,7 +267,7 @@ button:hover {
     transition-duration: 0.5s;
 }
 
-#what-we-do .fa-caret-down {
+.fa-caret-down {
     position: absolute;
     bottom: -2.4rem;
     right: -2rem;
@@ -285,11 +285,12 @@ button:hover {
     }
 }
 
-#what-we-do .card-gray:hover .fa-caret-up {
+.card-gray:hover .fa-caret-up {
     top: 0.4rem;
     left: 0rem;
 }
-#what-we-do .card-gray:hover .fa-caret-down {
+
+.card-gray:hover .fa-caret-down {
     bottom: 0.4rem;
     right: 0rem;
 }
@@ -361,4 +362,34 @@ box-shadow: 2px 14px 45px 10px rgba(201,254,27,0.85);
     box-shadow: 3px 7px 66px 45px rgba(201, 254, 27,0.52);
     -webkit-box-shadow: 3px 7px 66px 45px rgba(201, 254, 27,0.52);
     -moz-box-shadow: 3px 7px 66px 45px rgba(201, 254, 27,0.52);
+}
+
+/* ! START OUR TEAM */
+
+.team-member {
+    position: relative;
+    max-height: 20rem;
+    filter: grayscale(100%);
+    transition: all ease-in-out 0.5s;
+}
+
+.team-member .member-info h3 {
+    font-family: 'Days One', serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.team-member span, p {
+    font-size: 0.8rem;
+}
+
+.team-member:hover {
+    filter: grayscale(0%);
+}
+
+.member-nickname {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 0.8rem;
+    bottom: 3rem;
+    right: -0.5rem;
 }
