@@ -393,3 +393,55 @@ box-shadow: 2px 14px 45px 10px rgba(201,254,27,0.85);
     bottom: 3rem;
     right: -0.5rem;
 }
+
+/* ! START CONTACT US */
+
+#contact-us {
+    background-image: linear-gradient(0deg ,var(--color-dark),var(--color-gray-900));
+    padding-top: 1rem;
+    font-size: large;
+}
+
+#contact-us i {
+    color: var(--color-dark);
+    background-color: var(--color-primary);
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.contact-card {
+    background-color: var(--color-gray-800);
+}
+
+.contact-card h3 {
+    font-family: 'Days One', serif;
+    margin: 0;
+}
+
+#join-us-card {
+    background-image: linear-gradient(90deg ,var(--color-primary),var(--color-green-400));
+    color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#join-us-card i {
+    color: var(--color-primary);
+    background-color: var(--color-dark);
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+#contact-us form {
+    background-color: var(--color-gray-800);
+}
+
+#contact-us form {
+    input, select, textarea {
+    background-color: var(--color-gray-700);
+    color: var(--color-white);
+    border: 0;
+    margin-block: 0.2rem;
+}
+}
