@@ -443,5 +443,14 @@ box-shadow: 2px 14px 45px 10px rgba(201,254,27,0.85);
     color: var(--color-white);
     border: 0;
     margin-block: 0.2rem;
+    }
 }
+
+/* ! START FOOTER */
+footer {
+    background-color: var(--color-black);
+}
+
+footer a:hover {
+    color: var(--color-primary) !important;
 }

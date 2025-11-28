@@ -67,23 +67,27 @@
                 </div>
             </div>
                 </nav>
-                <section id="hero" class="d-flex flex-column align-items-center p-5 text-center">
-                    <h1 class="text-uppercase text-white fw-bold text-center">The Ultimate <span class="text-color-primary d-block text-center">Gaming</span> Experience</h1>
-                    <p class="text-white m-5">Join millions of gamers worldwide in the most competitive eSports tournaments. Experience next-level gaming with cutting-edge technology and endless possibilities.</p>
-                    <div class="hero__actions d-flex gap-3">
-                        <button class="btn bg-primary-color fw-bold p-3">Start Gaming Now</button>
-                        <button class="btn bg-transparent fw-bold p-3 text-color-primary">Watch Tournaments</button>
+                <section id="hero" class="d-flex flex-column flex-lg-row align-items-center p-5 text-center">
+                    <div class="hero-left d-flex flex-column align-items-center text-center">
+                        <h1 class="text-uppercase text-white fw-bold text-center">The Ultimate <span class="text-color-primary d-block text-center">Gaming</span> Experience</h1>
+                        <p class="text-white m-5">Join millions of gamers worldwide in the most competitive eSports tournaments. Experience next-level gaming with cutting-edge technology and endless possibilities.</p>
+                        <div class="hero__actions d-flex gap-3">
+                            <button class="btn bg-primary-color fw-bold p-3">Start Gaming Now</button>
+                            <button class="btn bg-transparent fw-bold p-3 text-color-primary">Watch Tournaments</button>
+                        </div>
                     </div>
-                    <div class="hero__image p-3 mt-5 position-relative">
-                        <img class="w-75" src="/assets/images/hero-img.png" alt="gaming setup">
-                        <div class="status-card d-grid text-white position-absolute">
-                            <div class="row">
-                                <div class="col-4 align-content-center p-0">
-                                    <i class="fa fa-trophy text-color-primary fa-2x"></i>
-                                </div>
-                                <div class="col-8 p-0 text-start">
-                                    <p class= "mb-0">Active Players</p>
-                                    <h5>2.5M+</h5>
+                    <div class="hero-right">
+                        <div class="hero__image p-3 mt-5 position-relative">
+                            <img class="w-75" src="/assets/images/hero-img.png" alt="gaming setup">
+                            <div class="status-card d-grid text-white position-absolute">
+                                <div class="row">
+                                    <div class="col-4 align-content-center p-0">
+                                        <i class="fa fa-trophy text-color-primary fa-2x"></i>
+                                    </div>
+                                    <div class="col-8 p-0 text-start">
+                                        <p class= "mb-0">Active Players</p>
+                                        <h5>2.5M+</h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -641,8 +645,72 @@
                     </div>
                 </section>
             </main>
-            <footer>
-                
+            <footer class="pt-5">
+                <div class="container">
+                    <div class="row gx-3">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <span class="navbar-brand text-color-primary" href="#">
+                                <i class="fa-gamepad fa me-1"></i> GamesArena
+                            </span>
+                            <p class="text-secondary my-3">The ultimate destination for competitive gaming, esports tournaments, and gaming community.</p>
+                            <div class="action-links d-flex gap-3">
+                                <a class="text-decoration-none text-secondary" href="#">
+                                    <i class="fa-brands fs-4 fa-x-twitter"></i>
+                                </a>
+                                <a class="text-decoration-none text-secondary" href="#">
+                                    <i class="fa-brands fs-4 fa-facebook"></i>
+                                </a>
+                                <a class="text-decoration-none text-secondary" href="#">
+                                    <i class="fa-brands fs-4 fa-instagram"></i>
+                                </a>
+                                <a class="text-decoration-none text-secondary" href="#">
+                                    <i class="fa-brands fs-4 fa-youtube"></i>
+                                </a>
+                                <a class="text-decoration-none text-secondary" href="#">
+                                    <i class="fa-brands fs-4 fa-twitch"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h3>Games</h3>
+                            <div class="d-flex flex-column gap-2">
+                                <a class="text-decoration-none text-secondary" href="#latest-games">VALORANT</a>
+                                <a class="text-decoration-none text-secondary" href="#latest-games">League of Legends</a>
+                                <a class="text-decoration-none text-secondary" href="#latest-games">CS:GO</a>
+                                <a class="text-decoration-none text-secondary" href="#latest-games">Dota 2</a>
+                                <a class="text-decoration-none text-secondary" href="#latest-games">Apex Legends</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h3>Tournaments</h3>
+                            <div class="d-flex flex-column gap-2">
+                                <a class="text-decoration-none text-secondary" href="">Upcoming Events</a>
+                                <a class="text-decoration-none text-secondary" href="">Live Matches</a>
+                                <a class="text-decoration-none text-secondary" href="">Results</a>
+                                <a class="text-decoration-none text-secondary" href="">Rankings</a>
+                                <a class="text-decoration-none text-secondary" href="">Schedule</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h3>Support</h3>
+                            <div class="d-flex flex-column gap-2">
+                                <a class="text-decoration-none text-secondary" href="">Help Center</a>
+                                <a class="text-decoration-none text-secondary" href="">Contact Us</a>
+                                <a class="text-decoration-none text-secondary" href="">Bug Reports</a>
+                                <a class="text-decoration-none text-secondary" href="">Feature Requests</a>
+                                <a class="text-decoration-none text-secondary" href="">Community Guidelines</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright text-secondary d-flex flex-column flex-lg-row justify-content-lg-between align-items-center mt-4 py-3 border-1 border-top border-opacity-25 border-secondary">
+                        <p class="m-0">© 2025 GameArena. All rights reserved.</p>
+                        <div class="copyright__links d-flex gap-3 m-0">
+                            <a class="text-decoration-none text-secondary" href="">Privacy Policy</a>
+                            <a class="text-decoration-none text-secondary" href="">Terms of Service</a>
+                            <a class="text-decoration-none text-secondary" href="">Cookie Policy</a>
+                        </div>
+                    </div>
+                </div>
             </footer>
         </div>
         <script src="/js/bootstrap.bundle.min.js"></script>
